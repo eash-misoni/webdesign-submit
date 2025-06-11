@@ -48,6 +48,19 @@ img {
 .cover-home {
     background-image: url("../images/cover-home-s.webp");
 }
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+.btn:hover {
+    background-color: #0090aa;
+}
 /* ヘッダー
 ------------------------------------------- */
 
