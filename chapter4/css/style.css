@@ -16,12 +16,10 @@ a {
 img {
     max-width: 100%;
 }
-
 /* レイアウト */
 .align-center {
     text-align: center;
 }
-
 /* 見出し */
 .font-english {
     font-family: "philosopher", sans-serif;
@@ -39,7 +37,6 @@ img {
 .heading-large {
     margin-bottom: 1rem;
 }
-
 .cover {
     background-size: cover;
     background-position: center bottom;
@@ -48,7 +45,6 @@ img {
 .cover-home {
     background-image: url("../images/cover-home-s.webp");
 }
-
 /* ボタン */
 .btn {
     display: inline-block;
@@ -64,7 +60,6 @@ img {
 }
 /* ヘッダー
 ------------------------------------------- */
-
 .page-header {
     padding-top: .5rem;
 }
@@ -84,7 +79,6 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
-
 /* 本文
 ------------------------------------------- */
 .about {
@@ -94,4 +88,25 @@ img {
 }
 .about p {
     margin-bottom: 3rem;
+}
+/* フッター
+------------------------------------------- */
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.info td {
+    padding: 1rem 0;
 }
