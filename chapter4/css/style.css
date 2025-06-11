@@ -22,10 +22,31 @@ img {
     text-align: center;
 }
 
-/* ヘッダー */
+/* 見出し */
+.font-english {
+    font-family: "philosopher", sans-serif;
+    font-weight: normal;
+}
+
+/* ヘッダー
+------------------------------------------- */
+
 .page-header {
     padding-top: .5em;
 }
 .logo {
     width: 210px;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    font-size: 1.5em;
+    list-style: none;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;
 }
