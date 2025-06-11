@@ -34,11 +34,19 @@ img {
     line-height: 1.4;
 }
 
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+.cover-home {
+    background-image: url("../images/cover-home-s.webp");
+}
 /* ヘッダー
 ------------------------------------------- */
 
 .page-header {
-    padding-top: .5em;
+    padding-top: .5rem;
 }
 .logo {
     width: 210px;
@@ -46,8 +54,8 @@ img {
 .main-nav {
     display: flex;
     justify-content: center;
-    gap: 2.5em;
-    font-size: 1.5em;
+    gap: 2.5rem;
+    font-size: 1.5rem;
     list-style: none;
 }
 .main-nav a {
@@ -55,4 +63,15 @@ img {
 }
 .main-nav a:hover {
     color: #0bd;
+}
+
+/* 本文
+------------------------------------------- */
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+.about p {
+    margin-bottom: 3rem;
 }
