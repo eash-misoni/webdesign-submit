@@ -241,6 +241,20 @@ img {
     .cover-news {
         background-image: url("../images/cover-news-l.webp");
     }
+    .news-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .post {
+        width: 70%;
+    }
+    .side-bar {
+        width: 22%;
+    }
+    .side-bar .heading-medium {
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
 
     /* 記事部分 */
     .post-title {
