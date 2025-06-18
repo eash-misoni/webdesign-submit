@@ -163,6 +163,13 @@ iframe {
 .email p {
     margin: 1rem 0 2rem;
 }
+/* SNS */
+.sns-item {
+    margin-bottom: 2rem;
+}
+.sns-item .heading-medium {
+    margin-bottom: .5rem;
+}
 
 /* 記事部分 */
 .post {
