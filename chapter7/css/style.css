@@ -152,6 +152,17 @@ img {
 iframe {
     width: 100%;
 }
+/* お問い合わせ */
+.email {
+    max-width: 916px;
+    background-color: #faf7f0;
+    border-radius: 48px;
+    padding: 1.5rem 2rem 2rem;
+    margin: 0 2rem;
+}
+.email p {
+    margin: 1rem 0 2rem;
+}
 
 /* 記事部分 */
 .post {
