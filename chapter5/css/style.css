@@ -237,6 +237,11 @@ img {
         margin: 4rem auto 0;
     }
 
+    /* NEWS */
+    .cover-news {
+        background-image: url("../images/cover-news-l.webp");
+    }
+
     /* 記事部分 */
     .post-title {
         font-size: 2rem;
