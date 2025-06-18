@@ -115,6 +115,23 @@ img {
 .cover-news {
     background-image: url("../images/cover-news-s.webp");
 }
+/* MENU
+------------------------------------------- */
+.grid {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.item img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.item p {
+    font-size: .875rem;
+}
+
 /* 記事部分 */
 .post {
     margin-bottom: 3rem;
