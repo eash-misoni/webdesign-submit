@@ -354,6 +354,24 @@ iframe {
         width: 100%;
     }
 
+    /* CONTACT */
+    .cover-contact {
+        background-image: url("../images/cover-contact-l.webp");
+    }
+    .location {
+        display: flex;
+        gap: 2rem;
+    }
+    .location-info {
+        width: 32%;
+    }
+    .location-info .info th {
+        padding-left: 2rem;
+    }
+    .location-map {
+        width: 64%;
+    }
+
     /* フッター */
     .page-footer {
         background-image: url("../images/footer-l.webp");
