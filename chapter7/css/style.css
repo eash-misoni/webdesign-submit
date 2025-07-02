@@ -371,6 +371,17 @@ iframe {
     .location-map {
         width: 64%;
     }
+    .email {
+        margin-bottom: 4rem;
+    }
+    .sns {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    .sns-item {
+        flex: 1;
+    }
 
     /* フッター */
     .page-footer {
